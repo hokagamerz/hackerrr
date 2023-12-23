@@ -1,16 +1,3 @@
---[[
-Game : https://www.roblox.com/games/1554960397
-Coded by : Keathunsar : https://github.com/dady172172/Roblox-Cheats
-Gui made by : FungBert : https://v3rmillion.net/member.php?action=profile&uid=1078854
-Go vouch release thread : https://v3rmillion.net/showthread.php?tid=1023761
-*********************************************************************************************************************
-
-keypress() on electron does not work at the moment
-
-*********************************************************************************************************************
-]]--
-
----- variables ----
 kVars = {} -- Table for all the variables
 kVars.WindowName = "Car Dealership Tycoon GUI"
 kVars.lp = game:GetService("Players").LocalPlayer
@@ -119,35 +106,3 @@ kVars.ClosingConnect = game:GetService("CoreGui").ChildRemoved:Connect(function(
 		script:Destroy()
 	end
 end)
-
-
-
---[[
----- label ----    
-local FirstLabel = FirstPage.AddLabel("Section 1")
-
----- button ----
-local FirstButton = FirstPage.AddButton("Hello", function()
-    print("Hello")
-end)
-
----- toggle ----
-local FirstToggle = FirstPage.AddToggle("Hello", false, function(Value)
-    print(Value)
-end)
-
----- Slider ----
-local FirstSlider = FirstPage.AddSlider("Hello", {Min = 0, Max = 255, Def = 50}, function(Value)
-    print(Value)
-end)
-
----- color picker ----
-local FirstPicker = FirstPage.AddColourPicker("Hello", "white", function(Value)
-    print(Value)
-end)
-
----- dropdown ----
-local FirstDropdown = FirstPage.AddDropdown("Hello", {}, function(Value)
-    print(Value)
-end)
-]]--
